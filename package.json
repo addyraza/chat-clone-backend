@@ -1,6 +1,9 @@
 {
   "name": "chat_backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.17.1"
+  },
   "scripts": {
     "server": "nodemon ./src/app.js",
     "start": "nodemon ./src/app.js",
