@@ -18,7 +18,7 @@ app.use(body.urlencoded({ limit: "10mb", extended: true }));
 app.use(helmet());
 
 // Define a route handler for the root URL
-app.get("/chat-backend/api", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello, World! This is Chat App By Addy!");
 });
 
